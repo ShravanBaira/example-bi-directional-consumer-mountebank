@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
 
 env:
-  PACT_BROKER_BASE_URL: https://testdemo.pactflow.io
-  PACT_BROKER_TOKEN: ${{ secrets.PACTFLOW_TOKEN_FOR_CI_CD_WORKSHOP }}
+  PACT_BROKER_BASE_URL: https://fan.pactflow.io
+  PACT_BROKER_TOKEN: ysvITFKS3I3peu4yE9V6lg
   BASE_URL: http://localhost:5001
   GIT_COMMIT: ${{ github.sha }}
   GIT_REF: ${{ github.ref }}
